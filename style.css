@@ -1,10 +1,57 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e8e9ea;
+    /* background-color: #e8e9ea; */
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-.amimal{
+
+.amimal {
     color: orange;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.text {
+    width: 50%;
+}
+.text h1{
+    line-height: 1rem;
+}
+
+.img {
+
+    width: 80%;
+    margin-left: 30px;
+    border-radius: 50%;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  
+    
+}
+.div{
+    width: 50%;
+}
+.video a{
+    text-decoration: none;
+    background-color:orange;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+.video a:hover{
+    color: orange;
+    background-color: #4c4c4c;
+}
+.banner-img{
+    background-image: url("./image/gradient-blur-pink-blue-abstract-background_53876-117324.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section{
+    height: 100vh;
 }
